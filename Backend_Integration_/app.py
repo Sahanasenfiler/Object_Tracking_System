@@ -7,7 +7,6 @@ import torch
 from PIL import Image
 
 app = Flask(__name__)
-
 # Ensure the directory exists for uploads
 UPLOAD_FOLDER = './uploads'
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
